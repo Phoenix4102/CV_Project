@@ -26,7 +26,7 @@ if uploaded_file is not None:
             
             try:
                 # Call FastAPI
-                response = requests.post("http://127.0.0.1:8000/predict", files=files)
+                response = requests.post("https://phoenix4102-cv-project.hf.space/predict", files=files)
                 
                 if response.status_code == 200:
                     data = response.json()
