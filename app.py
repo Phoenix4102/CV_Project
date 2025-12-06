@@ -17,7 +17,7 @@ from general_ad import General_AD
 app = FastAPI()
 
 # --- CONFIGURATION ---
-MODEL_PATH =  r"C:\Users\xyz36\Desktop\CV\Project\Implementation 3\CV\CV\deployment\general_ad-epoch=15-train_loss=0.82.ckpt" # Or your specific path
+MODEL_PATH =  "general_ad-epoch=15-train_loss=0.82.ckpt" # Or your specific path
 THRESHOLD = 0.7  # Replace with the optimal threshold you found
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
