@@ -1,0 +1,12 @@
+timm
+pytorch-lightning
+fastapi
+uvicorn
+python-multipart
+streamlit
+pyngrok
+wget
+opencv-python
+scipy
+torch
+torchvision
